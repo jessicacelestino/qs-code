@@ -1,3 +1,6 @@
+import math
+
+#Alunas: Jessica Celestino, Laura Schiavon e Mariana Fernandes
 class MathSamples:
 
     @staticmethod
@@ -8,3 +11,15 @@ class MathSamples:
             return 1
         return MathSamples.fibonacci(n-1) \
                 + MathSamples.fibonacci(n-2)
+
+    @staticmethod
+    def double(n):
+        if(n == 0):
+            return 1
+        return n ** 2
+
+    @staticmethod
+    def power(b, p):
+        if(p == 0):
+            return 1
+        return math.pow(b, p)
