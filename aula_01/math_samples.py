@@ -1,6 +1,6 @@
 import math
 
-#Alunas: Jessica Celestino, Laura Schiavon e Mariana Fernandes
+#Alunas: Jéssica Celestino, Laura Schiavon e Mariana Fernandes.
 class MathSamples:
 
     @staticmethod
