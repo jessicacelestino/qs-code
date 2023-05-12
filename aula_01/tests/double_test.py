@@ -1,5 +1,7 @@
 import unittest
-from math_samples import MathSamples
+
+from aula_01.math_samples import MathSamples
+
 
 class DoubleTest(unittest.TestCase):
 

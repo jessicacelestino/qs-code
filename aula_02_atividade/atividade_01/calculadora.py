@@ -1,10 +1,11 @@
-#Alunas: Jéssica Celestino, Laura Schiavon e Mariana Fernandes.
+# Alunas: Jéssica Celestino, Laura Schiavon e Mariana Fernandes.
 
-class Calculadora():
+
+class Calculadora:
 
     @staticmethod
     def soma(a, b):
-        if a == None or b == None :
+        if a is None or b is None:
             return 'É necessário passar dois valores no parametro de entrada!'
         if isinstance(a, str) or isinstance(b, str):
             return 'Não é possível somar strings!'
@@ -12,7 +13,7 @@ class Calculadora():
 
     @staticmethod
     def subtracao(a, b):
-        if a == None or b == None :
+        if a is None or b is None:
             return 'É necessário passar dois valores no parametro de entrada!'
         if isinstance(a, str) or isinstance(b, str):
             return 'Não é possível subtrair strings!'
@@ -20,7 +21,7 @@ class Calculadora():
 
     @staticmethod
     def divisao(a, b):
-        if a == None or b == None :
+        if a is None or b is None:
             return 'É necessário passar dois valores no parametro de entrada!'
         if isinstance(a, str) or isinstance(b, str):
             return 'Não é possível dividir strings!'
@@ -30,7 +31,7 @@ class Calculadora():
 
     @staticmethod
     def multiplicacao(a, b):
-        if a == None or b == None :
+        if a is None or b is None:
             return 'É necessário passar dois valores no parametro de entrada!'
         if isinstance(a, str) or isinstance(b, str):
             return 'Não é possível multiplicar strings!'
