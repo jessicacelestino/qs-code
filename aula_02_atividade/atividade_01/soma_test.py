@@ -1,6 +1,6 @@
 import unittest
 
-from aula_02_atividade.atividade_01.calculadora import Calculadora
+from calculadora import Calculadora
 
 
 class TestSoma(unittest.TestCase):

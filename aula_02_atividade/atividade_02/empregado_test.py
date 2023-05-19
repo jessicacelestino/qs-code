@@ -1,6 +1,6 @@
 import unittest
 
-from aula_02_atividade.atividade_02.empregado import Empregado, gerar_nome_completo, validar_cargo
+from empregado import Empregado, gerar_nome_completo, validar_cargo
 
 
 class TestEmpregado(unittest.TestCase):

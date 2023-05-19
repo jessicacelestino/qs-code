@@ -1,6 +1,6 @@
 import unittest
 
-from aula_01.math_samples import MathSamples
+from math_samples import MathSamples
 
 
 class FibonacciTest(unittest.TestCase):
